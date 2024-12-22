@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Unitconverter" parent="Theme.AppCompat.DayNight.DarkActionBar" >
+        <!-- Personnalisez vos couleurs ici -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <style name="Theme.CustomActionBarMenu" parent="Widget.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:itemBackground">@color/teal_200</item>
+    </style>
+</resources>

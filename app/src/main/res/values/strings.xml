@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">unit-converter</string>
+    <string-array name="unit_array">
+        <item>Meters</item>
+        <item>Kilometers</item>
+        <item>Miles</item>
+        <item>Inches</item>
+        <item>Yards</item>
+    </string-array>
+
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+    </string-array>
+
+    <string-array name="weight_units">
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Tonne</item>
+        <item>Milligram</item>
+        <item>Microgram</item>
+        <item>Decigram</item>
+    </string-array>
+</resources>

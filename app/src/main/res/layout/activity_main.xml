@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arriere_plan"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:text="Unit Coverter App"
+        android:textColor="#2F5183"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/unitConverterButton"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#94D1D9"
+        android:minWidth="88dip"
+        android:text="Length Converter"
+        android:radius="100dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/temperatureConverterButton"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#94D1D9"
+        android:text="Temperature converter"
+        android:textColor="#FFFFFF"
+         />
+
+    <Button
+        android:id="@+id/weightConverterButton"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#94D1D9"
+        android:text="Weight converter"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/currencyConverterButton"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#94D1D9"
+        android:text="Currency Converter"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/historyButton"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#94D1D9"
+        android:text="View History"
+        android:textColor="#FFFFFF" />
+
+
+
+
+</LinearLayout>
